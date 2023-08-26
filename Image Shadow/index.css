@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_class {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 25rem;
+    height: auto;
+    margin: 3rem 0rem;
+    filter: drop-shadow(0.8rem 0.8rem 0.4rem gray);
+    transition: all 0.3s cease-out;
+}
+
+img:hover {
+    filter: drop-shadow(0.8rem 0.8rem 0.8rem red);
+}

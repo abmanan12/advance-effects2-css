@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: red;
+     animation: bgColor 10s linear infinite;
+}
+
+@keyframes bgColor {
+    0% {
+        background-color: #ef233c;
+    }
+    20% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: green;
+    }
+    60% {
+        background-color: #00b4d8;
+    }
+    80% {
+        background-color: #7209b7;
+    }
+    100% {
+        background-color: #ef233c;
+    }
+}

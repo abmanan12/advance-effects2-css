@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent_div{
+    width: 100wh;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url('https://wallpapercave.com/wp/wp6659728.png');
+    /* background-image: url('https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
+}
+
+div h1{
+    background-color: white;
+    padding: 1rem;
+    mix-blend-mode: screen;
+    font-size: 3rem;
+}
